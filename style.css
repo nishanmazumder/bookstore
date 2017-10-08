@@ -1,0 +1,348 @@
+/*
+ Theme Name:     Book Store
+ Theme URI:      http://www.bookstore.nl/
+ Description:    Site for Bookstore
+ Author:         Nishan Mazumder
+ Author URI:     https://github.com/nishanmazumder
+ Template:       twentyseventeen
+ Version:        1.0.0
+*/
+	
+/**
+ * Global Styles
+ */
+
+body{
+	background: url(img/bg.png) repeat;
+}
+
+ul{
+	list-style-type: none;
+}
+.extra_pad{
+	padding: 10px;
+}
+/*********************
+	Header Section
+**********************/
+.bk_header{
+	width: 1100px;
+	margin: 0px auto;
+}
+
+.header_top_line{
+	background: #19C385;
+	padding: 2px;
+	width: 100%;
+}
+
+/*********************
+	Nav Section
+**********************/
+.bk_top_bar{
+	background: #F7F7F7;
+}
+.bk-form button{
+	background: #19C385;
+	border-radius: 0px;
+}
+.bk-form i{
+	color: #fff;
+}
+.bk-form input{
+	padding: 5px;
+	border-right: 2px solid #5E78B0;
+}
+.bk-navbar{
+	padding: 0px !important;
+}
+.bk-navbar ul li a{
+	color: #979797;
+}
+.bk-navbar ul li a:hover{
+	color: #292929;
+}
+.menu-shadow img{
+	position: relative;
+	width: 100%;
+	height:15px;
+	margin-top: -18px;
+}
+.navbar-toggler i{
+	color: #19C385;
+}
+/*********************
+	Preference Section
+**********************/
+.bk_site_preference{
+	padding: 40px 0px;
+}
+.bk_addvr img{
+	width: 90%;
+	float: right;
+	margin-top: 20px;
+}
+.bk_logo img{
+	width: 90%;
+	float: right;
+}
+/*********************
+	Social Section
+**********************/
+.bk_social_link{
+	background: #19C385;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.bk_social_link .container-fluid{
+	background: #187D58;
+}
+.bk_social_link h3{
+	color: #fff;
+	margin-left: 12%;
+}
+.bk_social_link ul{
+	float: left;
+	margin-right: 15px;
+	margin-left: 45%;
+}
+.bk_social_link ul li{
+	display: inline;
+	background: #fff;
+	padding: 5px;
+	border-radius: 4px;
+}
+.bk_social_link p{
+	color: #fff;
+}
+.bk_social_link div:last-child{
+	padding-top: 5px;
+}
+/*********************
+	Content Section
+.**********************/
+.bk_content{
+	width: 1000px;
+	margin: 0px auto;
+	background: #fff;
+	border: 1px solid #D5D6D8;
+	padding: 50px 5px 80px 5px;
+}
+.first_section{
+	background: #fff; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#fff, #D5D6D8); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#fff, #D5D6D8); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#fff, #D5D6D8); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#fff, #D5D6D8); /* Standard syntax */ 
+	box-shadow:0px 5px 5px #888888;
+}
+.first_slider{
+	margin: 20px 30px 30px 30px;
+}
+.second_section{
+	margin-top: 80px;
+	padding-bottom: 50px;
+	background: #fff; /* For browsers that do not support gradients */
+	box-shadow:0px 5px 5px #888888;
+}
+.second_slider{
+	padding: 20px 15px 0px 15px;
+	background: #fff; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#fff, #D5D6D8); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#fff, #D5D6D8); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#fff, #D5D6D8); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#fff, #D5D6D8); /* Standard syntax */ 
+}
+.third_section{
+	margin-top: 30px;
+	padding-bottom: 50px;
+	background: #fff; /* For browsers that do not support gradients */
+	box-shadow:0px 5px 5px #888888;
+}
+.third_slider{
+	padding: 20px 15px 0px 15px;
+	background: #fff; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#fff, #D5D6D8); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#fff, #D5D6D8); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#fff, #D5D6D8); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#fff, #D5D6D8); /* Standard syntax */ 
+}
+.bk_slider_title{
+	background: #19C385;
+	padding-top: 5px;
+	border-radius: 10px 0px 10px 0px;
+}
+.bk_slider_title h3{
+	background: #187D58;
+	border-radius: 10px 0px 10px 0px;
+	padding: 5px 20px;
+	color: #fff;
+	font-weight: bold;
+}
+.owl-nav i {
+    font-weight: bold;
+    color: #636363;
+    position: absolute;
+    background: #fff;
+	border-radius: 0px 5px 5px 0px; 
+	padding: 5px 10px;
+}
+.owl-prev i{
+	left: -30px;
+	top: 80px;
+}
+.owl-next i{
+	right: -30px;
+	top: 80px;
+}
+.owl-dots {
+    position: relative;
+    margin-left: 50%;
+    top: 40px;
+}
+.owl-dot {
+     width: 15px;
+     height: 15px;
+     border-radius: 100%;
+     border: 1px solid #ccc;
+     background: #B4B4B4;
+     margin: 3px;
+     display: inline-block;  /*for making them horizontal, if you want vertical then you can use- display: block*/
+}
+
+/*********************
+	Sidebar Section
+**********************/
+.bk_siderbar ul li{
+	margin-top: 8px;
+}
+.bk_siderbar a{
+	color: #717171;
+	font-size: 18px;
+	letter-spacing: 1px;
+	text-decoration: none;
+}
+.bk_siderbar a:hover{
+	color: #4586B0;
+}
+.bk_siderbar i{
+	font-size: 5px;
+	margin-left: 10px;
+}
+.bk-list{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+/*********************
+	Footer Section
+**********************/
+.bk-footer{
+	background: #187D58;
+	color: #fff;
+}
+.copyright-text p{
+	margin-top: 15px;
+}
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+
+@media only screen and (max-width:1030px){
+	.bk_header{
+		width: 100%;
+	}
+	.bk_content{
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width:780px){
+	.navbar-toggler{
+		position: absolute;
+		right: 0px;
+		top: 10px;
+	}
+	.navbar-collapse{
+		padding-top: 40px;
+	}
+	.bk-list{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.owl-dots{
+		margin-left: 43%;
+	}
+	.bk_social_link ul {
+		margin-right: 15px;
+		margin-left: 35%;
+	}
+}
+
+@media only screen and (max-width:650px){
+	.bk_logo img{
+		width: 55%;
+	}
+	.navbar-toggler{
+		top: 0px;
+	}
+	.bk_social_link ul {
+		margin-right: 15px;
+		margin-left: 25%;
+	}
+	.bk_siderbar{
+		margin-top: 50px;
+	}
+	.bk_slider_title h3{
+		text-align: center !important;
+	}
+	.bk-list ul{
+		margin-right: 33% !important;
+		margin-top: 25px;
+	}
+	.bk-list ul li a{
+		font-size: 20px;
+	}
+}
+@media only screen and (max-width:490px){
+	.bk-form{
+		margin-left: -20px;
+	}
+	.navbar-toggler i{
+		font-size: 22px;
+	}
+	.navbar-toggler{
+		top: -30px;
+	}
+	.navbar-collapse{
+		padding-top: 20px;
+	}
+	.second_section{
+		padding-bottom: 0px;
+	}
+	.second_slider{
+		padding-bottom: 30px;
+	}
+	.third_section{
+		padding-bottom: 0px;
+	}
+	.third_slider{
+		padding-bottom: 30px;
+	}
+	.bk-list ul{
+		margin-right: 30% !important;
+	}
+	.bk_social_link h3{
+		text-align: center;
+	}
+	.bk_addvr img{
+		margin-top: 0px;
+		width: 100%;
+	}
+	.bk_logo img{
+		margin-right: 95px;
+		margin-top: 30px;
+	}
+}
+
+@media only screen and (max-width:330px){}
